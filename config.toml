@@ -17,7 +17,7 @@
     path = "THUDM/chatglm2-6b-int8"
     [models.llm."chatglm2-6b-int4"]
     type = "chatglm"
-    path = "THUDM/chatglm2-6b-int4"
+    path = "/content/drive/MyDrive/chatglm-openai-api/models/chatglm2-6b-int4"
     [models.llm."phoenix-inst-chat-7b"]
     type = "phoenix"
     path = "FreedomIntelligence/phoenix-inst-chat-7b"
