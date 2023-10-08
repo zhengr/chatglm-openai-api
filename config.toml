@@ -24,9 +24,6 @@
     [models.llm."phoenix-inst-chat-7b-int4"]
     type = "phoenix"
     path = "FreedomIntelligence/phoenix-inst-chat-7b-int4"
-    [models.llm."Baichuan2-7B-Chat"]
-    type = "chatglm"
-    path = "baichuan-inc/Baichuan2-7B-Chat"
 
   [models.embeddings]
     [models.embeddings."text2vec-large-chinese"]
