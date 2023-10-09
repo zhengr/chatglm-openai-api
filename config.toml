@@ -36,7 +36,7 @@ tokens = ["2Uux8o0uaAoQt3RJnTB6Oe7KiVf_6DQesxnnEjc1u8kdBQKmt"]
 [tunnel]
   [tunnel.ngrok]
   token = "2Uux8o0uaAoQt3RJnTB6Oe7KiVf_6DQesxnnEjc1u8kdBQKmt"
-  region = "jp"
+  region = "us"
   # Binding custom subdomains is a feature for paid accounts.
   subdomain = "squirrel-dynamic-likely.ngrok-free.app"
   [tunnel.cloudflare]
