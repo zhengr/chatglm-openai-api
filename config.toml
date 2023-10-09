@@ -38,7 +38,7 @@ tokens = ["2Uux8o0uaAoQt3RJnTB6Oe7KiVf_6DQesxnnEjc1u8kdBQKmt"]
   token = "2Uux8o0uaAoQt3RJnTB6Oe7KiVf_6DQesxnnEjc1u8kdBQKmt"
   region = "jp"
   # Binding custom subdomains is a feature for paid accounts.
-  subdomain = "fleet-fawn-ethical.ngrok-free.app"
+  subdomain = ""
   [tunnel.cloudflare]
   # first need init cloudflare tunnel, see README.md
   cloudflared_path = "/usr/local/bin/cloudflared"
