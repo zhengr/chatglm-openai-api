@@ -99,7 +99,7 @@ def main():
             if config['tunnel']['ngrok']['token']:
                 ngrok.set_auth_token(config['tunnel']['ngrok']['token'])
             subdomain = config['tunnel']['ngrok']['subdomain'] or None
-            http_tunnel = ngrok.connect(args.port, subdomain=subdomain)
+            http_tunnel = ngrok.connect(args.port, domain=subdomain)
             print(f">> Public URL: {http_tunnel.public_url}")
         if args.tunnel == "cloudflare":
             print(">>> Start cloudflare tunnel..")
